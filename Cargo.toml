@@ -4,3 +4,8 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+chrono = "0.4.42"
+futures = "0.3.31"
+rucash = { path = "../rucash", version = "0.6.0", features = ["sqlite"] }
+rust_decimal = "1.39.0"
+
